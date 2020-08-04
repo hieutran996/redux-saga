@@ -27,10 +27,10 @@ class Dashboard extends Component {
         <Header
           name={name}
           showSidebar={showSidebar}
-          onToggleSidebar={this.handleToggleSidebar}
+              onToggleSidebar={this.handleToggleSidebar}
         />
         <div className={classes.wrapper}>
-          <Sidebar
+                <Sidebar
             showSidebar={showSidebar}
             onToggleSidebar={this.handleToggleSidebar}
           />
